@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Mat',
+      parameters: [
+        {
+          baseColor: '275_Candy Cane',
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/275_Candy Cane.obj',
+    name: '275_Candy Cane',
+    recenter: 'root',
+    scale: 0.001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\275_Candy Cane.png',
+      name: '275_Candy Cane',
+      pipeline_name: '275_Candy Cane.png',
+    },
+  ],
+  version: '0.54:1',
+}
